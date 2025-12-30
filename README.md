@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wenyu's Portfolio - NLP & AI Engineering
 
-## Getting Started
+A modern, minimalist portfolio website showcasing my research and projects in Natural Language Processing (NLP) and Artificial Intelligence. Built with a focus on performance, clean aesthetics, and professional technical storytelling.
 
-First, run the development server:
+🚀 **Live Demo**: [https://wenyuportfolio.vercel.app/](https://wenyuportfolio.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- **Professional NLP Focus**: Highlights specialized expertise in RAG evaluation, Explainable AI (XAI), and Low-Resource Machine Translation.
+- **Modern UI/UX**: Features a custom `Spotlight` background effect, `FloatingNav` capsule navigation, and `AnimatedText` letter-by-letter entry.
+- **Performance Optimized**: Achieves near-perfect Lighthouse scores through Next.js server-side optimizations.
+- **Fully Responsive**: Seamlessly transitions from mobile view to high-resolution desktop displays.
+- **Modular Architecture**: Built with reusable React components for easy maintenance and scaling.
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+├── app/            # Core routing and metadata logic
+├── components/     # Reusable UI components (Nav, Section, Spotlight)
+│   └── sections/   # Page-specific sections (Hero, Projects, About)
+├── data/           # Centralized site configuration and project data (site.ts)
+└── public/         # Static assets (CV, icons, images)
