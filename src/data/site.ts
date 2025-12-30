@@ -5,7 +5,7 @@ export const site = {
   links: {
     github: "https://github.com/0x0checo",
     linkedin: "https://www.linkedin.com/in/wenyuli020303/",
-    email: "mailto:wenyu.li.6753@student.uu.se",
+    email: "mailto:jasonlee020303@gmail.com",
     cv: "/cv.pdf",
   },
   highlights: [
