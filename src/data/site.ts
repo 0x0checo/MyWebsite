@@ -26,14 +26,14 @@ export const site = {
       description:
         "Integrated Gradients vs LIME/SHAP with deletion tests on fine-tuned BERT (SST-2).",
       tags: ["XAI", "BERT", "Captum"],
-      link: "https://github.com/yourname/xai-sst2",
+      link: "https://github.com/0x0checo/nlp-xai",
     },
     {
       title: "Low-Resource MT: Luganda ↔ English",
       description:
         "Training + back-translation experiments with mBART/NLLB; BLEU + qualitative error analysis.",
       tags: ["MT", "Low-resource", "NLLB"],
-      link: "https://github.com/yourname/mt-luganda-en",
+      link: "https://github.com/0x0checo/Luganda-to-English-machine-translation",
     },
   ],
   about:
