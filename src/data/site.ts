@@ -1,4 +1,4 @@
-Croatian News Information Retrieval:export const site = {
+export const site = {
   name: "Wenyu",
   tagline: "NLP / AI Engineer · Uppsala University",
   location: "Uppsala, Sweden",
@@ -9,15 +9,15 @@ Croatian News Information Retrieval:export const site = {
     cv: "/cv.pdf",
   },
   highlights: [
-    "RAG Chunking & Retrieval Evaluation",
-    "Explainability (IG/LIME/SHAP) on Transformers",
+    "Croatian News Information Retrieval",
+    "Explainability (IG/LIME/ATTENTION) on Transformers",
     "Multilingual MT (mBART / NLLB)",
   ],
   projects: [
     {
-      title: "Croatian News Information Retrieval:",
+      title: "Croatian News Information Retrieval",
       description:
-        "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup"，
+        "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup",
       tags: ["BM25", "SBERT", "Evaluation"],
       link: "https://github.com/0x0checo/information-retrieval-search-engine",
     },
