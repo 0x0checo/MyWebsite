@@ -43,6 +43,9 @@ export const site = {
     },
   ],
   about:
-    "I’m a Master's student in Language Technology (Uppsala University). I build NLP systems with a focus on retrieval, evaluation, and interpretability.",
+    "I am a Master’s student in Language Technology at Uppsala University, specializing in Machine Learning and Natural Language Processing (NLP).
+     My academic background combines linguistics and computer science, with hands-on experience in text classification, sentiment analysis, information extraction, and transformer-based models (BERT, GPT, etc.).
+     I am skilled in Python, PyTorch, Huggingface and scikit-learn, and have experience working with large-scale datasets and applied AI projects.
+     Proficient in English, Chinese, and Urdu, I thrive in working collaboratively within diverse, international team environments.",
 };
 
