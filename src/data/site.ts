@@ -9,6 +9,7 @@ export const site = {
     cv: "/cv.pdf",
   },
   highlights: [
+    "AI Detection",
     "Croatian News Information Retrieval",
     "Explainability (IG/LIME/ATTENTION) on Transformers",
     "Multilingual MT (mBART / NLLB)",
