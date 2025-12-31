@@ -15,6 +15,13 @@ export const site = {
   ],
   projects: [
     {
+      title: "AI-Generated Text Detection (Internship Project)",
+      description:
+        "Built an AI-generated text detection pipeline for short-form content, covering data prep, modeling, evaluation, and deployment-ready inference.",
+      tags: ["Detection", "NLP", "ML"],
+      link: "https://www.revdetect.com/" // 没有公开repo也可以放 Notion/Blog/空
+    },
+    {
       title: "Croatian News Information Retrieval",
       description:
         "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup.",      tags: ["BM25", "SBERT", "Evaluation"],
