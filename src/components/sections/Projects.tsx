@@ -23,7 +23,10 @@ export function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ delay: idx * 0.05, duration: 0.35 }}
-            className="group rounded-2xl border border-neutral-200 bg-white/60 p-5 backdrop-blur hover:bg-white dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950"
+            className="group rounded-2xl border border-neutral-200 bg-white/60 p-5 backdrop-blur
+transition-all duration-200
+hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-900/10 hover:border-neutral-300 hover:bg-white
+dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:hover:border-neutral-700 dark:hover:shadow-neutral-900/40"
           >
             <div className="flex items-start justify-between gap-3">
               <h3 className="text-base font-semibold">{p.title}</h3>

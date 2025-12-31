@@ -19,7 +19,10 @@ export function Highlights() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ delay: idx * 0.05, duration: 0.35 }}
-            className="rounded-2xl border border-neutral-200 bg-white/60 p-6 backdrop-blur dark:border-neutral-800 dark:bg-neutral-950/40"
+            className="rounded-2xl border border-neutral-200 bg-white/60 p-6 backdrop-blur
+transition-all duration-200
+hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-900/10 hover:border-neutral-300 hover:bg-white
+dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:hover:border-neutral-700 dark:hover:shadow-neutral-900/40"
           >
             <h3 className="text-lg font-semibold leading-snug">
               {item.title}
