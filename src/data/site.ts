@@ -1,4 +1,4 @@
-export const site = {
+Croatian News Information Retrieval:export const site = {
   name: "Wenyu",
   tagline: "NLP / AI Engineer · Uppsala University",
   location: "Uppsala, Sweden",
@@ -15,11 +15,11 @@ export const site = {
   ],
   projects: [
     {
-      title: "RAG Chunking Strategy Benchmark",
+      title: "Croatian News Information Retrieval:",
       description:
-        "A systematic comparison of chunking strategies for multilingual technical docs with retrieval metrics and ablations.",
-      tags: ["RAG", "Vector DB", "Evaluation"],
-      link: "https://github.com/yourname/rag-chunking",
+        "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup"，
+      tags: ["BM25", "SBERT", "Evaluation"],
+      link: "https://github.com/0x0checo/information-retrieval-search-engine",
     },
     {
       title: "XAI for Text Classification",
