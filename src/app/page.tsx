@@ -3,6 +3,7 @@ import { FloatingNav } from "@/components/FloatingNav";
 import { Hero } from "@/components/sections/Hero";
 import { Projects } from "@/components/sections/Projects";
 import { About } from "@/components/sections/About";
+import { Highlights } from "@/components/sections/Highlights";
 import { Contact } from "@/components/sections/Contact";
 
 export default function Page() {
@@ -15,6 +16,7 @@ export default function Page() {
         <Hero />
         <Projects />
         <About />
+	<Highlights />
         <Contact />
 
         <footer className="py-10">

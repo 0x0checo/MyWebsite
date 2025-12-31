@@ -49,4 +49,35 @@ My academic background combines linguistics and computer science, with hands-on 
 I am skilled in Python, PyTorch, Hugging Face, and scikit-learn, and have experience working with large-scale datasets and applied AI projects.
 Proficient in English, Chinese, and Urdu, I thrive in collaborative, international team environments.
 `.trim(),
+
+ FeatureCard: [
+  {
+    title: "I prioritize clear, async communication",
+    body: "I’m comfortable collaborating across time zones and keeping work visible via docs, tickets, and weekly updates.",
+  },
+  {
+    title: "I’m flexible with time-zone collaboration",
+    body: "Based in Sweden, available for EU/UK-friendly hours and async coordination when needed.",
+  },
+  {
+    title: "Tech stack I use most",
+    body: "Python, PyTorch, Hugging Face, scikit-learn, and modern web tooling for demos and dashboards.",
+  },
+],
+
+techStack: [
+  "Python",
+  "PyTorch",
+  "Hugging Face",
+  "scikit-learn",
+  "Transformers",
+  "RAG",
+  "Vector DB",
+  "FastAPI",
+  "Docker",
+  "Git",
+  "Linux",
+  "SQL",
+]
 }
+
