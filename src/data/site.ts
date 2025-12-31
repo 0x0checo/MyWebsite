@@ -17,8 +17,7 @@ export const site = {
     {
       title: "Croatian News Information Retrieval",
       description:
-        "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup",
-      tags: ["BM25", "SBERT", "Evaluation"],
+        "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup.",      tags: ["BM25", "SBERT", "Evaluation"],
       link: "https://github.com/0x0checo/information-retrieval-search-engine",
     },
     {
