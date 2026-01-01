@@ -19,33 +19,38 @@ export function Highlights() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ delay: idx * 0.05, duration: 0.35 }}
-            className="rounded-2xl border border-neutral-200 bg-white/60 p-6 backdrop-blur
+            className="rounded-2xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur
+shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
 transition-all duration-200
-hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-900/10 hover:border-neutral-300 hover:bg-white
-dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:hover:border-neutral-700 dark:hover:shadow-neutral-900/40"
+hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.08]
+hover:shadow-[0_10px_30px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.04)]"
           >
-            <h3 className="text-lg font-semibold leading-snug">
+            <h3 className="text-lg font-semibold leading-snug text-neutral-50">
               {item.title}
             </h3>
-            <p className="mt-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
+            <p className="mt-3 text-sm leading-relaxed text-neutral-300">
               {item.body}
             </p>
           </motion.div>
         ))}
       </div>
 
-      <div className="mt-6 group rounded-2xl border border-neutral-200 bg-white/60 p-6 backdrop-blur
+      <div
+        className="mt-6 rounded-2xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur
+shadow-[0_0_0_1px_rgba(255,255,255,0.02)]
 transition-all duration-200
-hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-900/10 hover:border-neutral-300 hover:bg-white
-dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:hover:border-neutral-700 dark:hover:shadow-neutral-900/40">
-        <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          My tech stack
-        </p>
+hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.08]
+hover:shadow-[0_10px_30px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.04)]"
+      >
+        <p className="text-sm text-neutral-400">My tech stack</p>
+
         <div className="mt-3 flex flex-wrap gap-2">
           {site.techStack.map((t) => (
             <span
               key={t}
-              className="rounded-full border border-neutral-200 px-3 py-1 text-xs text-neutral-700 dark:border-neutral-800 dark:text-neutral-200"
+              className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs text-neutral-200
+transition-all duration-200
+hover:-translate-y-0.5 hover:bg-white/[0.06] hover:border-white/20"
             >
               {t}
             </span>
