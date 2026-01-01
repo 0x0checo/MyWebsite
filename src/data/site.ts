@@ -61,15 +61,15 @@ Proficient in English, Chinese, and Urdu, I thrive in collaborative, internation
  FeatureCard: [
   {
     title: "Cross-cultural & multilingual collaboration",
-    body: "I enjoy working in international teams and communicating clearly across cultures and time zones. Fluent in English and Chinese, with an academic background in Urdu, I’m comfortable discussing technical details and aligning expectations with diverse colleagues.",
+    body: "Comfortable working in international teams. Fluent in English and Chinese, with an academic background in Urdu. I communicate clearly across cultures and time zones.",
   },
   {
     title: "Reliable, structured, and easy to work with",
-    body: "I value ownership and transparency: I write things down, share progress early, and keep tasks well-scoped. I’m proactive about asking clarifying questions, giving realistic updates, and delivering on time—without overcomplicating things.",
+    body: "I work in a structured way: define scope, document decisions, share progress early, and deliver reliably. I ask good questions and keep stakeholders aligned.",
   },
   {
     title: "Tech stack I use most",
-    body: "My work centers on NLP and machine learning—especially transformer-based models, evaluation, and error analysis. I’m comfortable iterating quickly: building baselines, running controlled experiments, and turning results into clear takeaways for the next step.",
+    body: "Focused on NLP and machine learning (Transformers/BERT-style models), with an emphasis on evaluation and error analysis. I enjoy building baselines and iterating with experiments.",
   },
 ],
 
