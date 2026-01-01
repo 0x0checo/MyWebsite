@@ -14,9 +14,9 @@ export default function Page() {
 
       <main className="relative">
         <Hero />
+        <Highlights />
         <Projects />
-        <About />
-	<Highlights />
+	<About />
         <Contact />
 
         <footer className="py-10">
