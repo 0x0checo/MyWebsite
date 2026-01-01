@@ -53,11 +53,8 @@ export const site = {
   ],
   about: `
   I am a Master’s student in Language Technology at Uppsala University, specializing in Machine Learning and Natural Language Processing (NLP).
-
   My academic background combines linguistics and computer science, with hands-on experience in text classification, sentiment analysis, information extraction, and transformer-based models (BERT, GPT, etc.).
-  
   I am skilled in Python, PyTorch, Hugging Face, and scikit-learn, and have experience working with large-scale datasets and applied AI projects.
-
   Proficient in English, Chinese, and Urdu, I thrive in collaborative, international team environments.
 `.trim(),
 
