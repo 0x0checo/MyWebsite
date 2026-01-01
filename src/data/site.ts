@@ -60,16 +60,16 @@ Proficient in English, Chinese, and Urdu, I thrive in collaborative, internation
 
  FeatureCard: [
   {
-    title: "I prioritize clear, async communication",
-    body: "I’m comfortable collaborating across time zones and keeping work visible via docs, tickets, and weekly updates.",
+    title: "Cross-cultural & multilingual collaboration",
+    body: "I enjoy working in international teams and communicating clearly across cultures and time zones. Fluent in English and Chinese, with an academic background in Urdu, I’m comfortable discussing technical details and aligning expectations with diverse colleagues.",
   },
   {
-    title: "I’m flexible with time-zone collaboration",
-    body: "Based in Sweden, available for EU/UK-friendly hours and async coordination when needed.",
+    title: "Reliable, structured, and easy to work with",
+    body: "I value ownership and transparency: I write things down, share progress early, and keep tasks well-scoped. I’m proactive about asking clarifying questions, giving realistic updates, and delivering on time—without overcomplicating things.",
   },
   {
     title: "Tech stack I use most",
-    body: "Python, PyTorch, Hugging Face, scikit-learn, and modern web tooling for demos and dashboards.",
+    body: "My work centers on NLP and machine learning—especially transformer-based models, evaluation, and error analysis. I’m comfortable iterating quickly: building baselines, running controlled experiments, and turning results into clear takeaways for the next step.",
   },
 ],
 
