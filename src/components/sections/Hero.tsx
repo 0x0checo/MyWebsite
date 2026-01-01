@@ -1,7 +1,7 @@
 import { site } from "@/data/site";
 import { AnimatedText } from "@/components/AnimatedText";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
-import { MiniTerminal } from "@/components/MiniTerminal";
+import { MiniTerminal } from "../MiniTerminal";
 
 export function Hero() {
   return (
