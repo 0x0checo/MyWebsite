@@ -36,7 +36,7 @@ dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:ho
                     src={p.thumbnail}
                     alt={p.thumbnailAlt ?? p.title}
                     fill
-                    className="object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                    className="object-contain bg-white]"
                     sizes="(max-width: 640px) 100vw, 50vw"
                     priority={idx < 2}
                   />
