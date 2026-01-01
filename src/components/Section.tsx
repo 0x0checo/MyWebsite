@@ -1,38 +1,34 @@
-// src/components/Section.tsx
-import React from "react";
+import { ReactNode } from "react";
 
-export function Section({
-  id,
-  title,
-  subtitle,
-  children,
-}: {
-  id: string;
+type Props = {
+  id?: string;
   title: string;
   subtitle?: string;
-  children: React.ReactNode;
-}) {
+  children: ReactNode;
+};
+
+export function Section({ id, title, subtitle, children }: Props) {
   return (
-    <section id={id} className="scroll-mt-24 py-16">
+    <section id={id} className="relative py-20">
       <div className="mx-auto w-full max-w-5xl px-6">
-        <div className="mb-8">
-          {/* Title: fallback bright text + gradient overlay in dark mode */}
-          <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">
-            <span className="dark:bg-gradient-to-r dark:from-neutral-50 dark:via-indigo-200 dark:to-sky-200 dark:bg-clip-text dark:text-transparent">
-              {title}
-            </span>
+        {/* Header */}
+        <div className="mb-10">
+          <h2
+            className="
+              text-4xl md:text-5xl font-semibold tracking-tight
+              text-transparent bg-clip-text
+              bg-gradient-to-r from-indigo-200 via-sky-200 to-purple-200
+              drop-shadow-[0_0_18px_rgba(56,189,248,0.18)]
+            "
+          >
+            {title}
           </h2>
 
           {subtitle ? (
-            <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-300">
+            <p className="mt-3 text-base md:text-lg text-neutral-200/80">
               {subtitle}
             </p>
           ) : null}
-
-          {/* subtle divider */}
-          <div className="relative mt-5 h-px w-full overflow-hidden bg-black/10 dark:bg-white/10">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-60 blur-[0.5px]" />
-          </div>
         </div>
 
         {children}
