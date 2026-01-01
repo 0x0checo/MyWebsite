@@ -20,13 +20,17 @@ export const site = {
       description:
         "Built an AI-generated text detection pipeline for short-form content, covering data prep, modeling, evaluation, and deployment-ready inference.",
       tags: ["Detection", "NLP", "ML"],
-      link: "https://www.revdetect.com/" // 没有公开repo也可以放 Notion/Blog/空
+      link: "https://www.revdetect.com/",
+      thumbnail: "/projects/aidetect.png",
+      thumbnailAlt: "AI-generated content detection web interface",
     },
     {
       title: "Croatian News Information Retrieval",
       description:
         "This repository evaluates ranking algorithms for a Croatian-language IR system using a news-article setup.",      tags: ["BM25", "SBERT", "Evaluation"],
       link: "https://github.com/0x0checo/information-retrieval-search-engine",
+      thumbnail: "/projects/IR.png",
+      thumbnailAlt: "Information retrieval evaluation metrics (Accuracy@5, MAP, etc.)",
     },
     {
       title: "XAI for Text Classification",
@@ -34,6 +38,8 @@ export const site = {
         "Integrated Gradients vs LIME/SHAP with deletion tests on fine-tuned BERT (SST-2).",
       tags: ["XAI", "BERT", "Captum"],
       link: "https://github.com/0x0checo/nlp-xai",
+      thumbnail: "/projects/xai.png",
+      thumbnailAlt: "Deletion test plot comparing IG / Attention / LIME",
     },
     {
       title: "Low-Resource MT: Luganda ↔ English",
@@ -41,6 +47,8 @@ export const site = {
         "Training + back-translation experiments with mBART/NLLB; BLEU + qualitative error analysis.",
       tags: ["MT", "Low-resource", "NLLB"],
       link: "https://github.com/0x0checo/Luganda-to-English-machine-translation",
+      thumbnail: "/projects/mt.png",
+      thumbnailAlt: "BLEU scores comparison before and after fine-tuning",
     },
   ],
   about: `

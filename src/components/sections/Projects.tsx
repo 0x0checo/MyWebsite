@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Section } from "@/components/Section";
 import { site } from "@/data/site";
 import { motion } from "framer-motion";
@@ -27,7 +28,22 @@ export function Projects() {
 transition-all duration-200
 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-900/10 hover:border-neutral-300 hover:bg-white
 dark:border-neutral-800 dark:bg-neutral-950/40 dark:hover:bg-neutral-950 dark:hover:border-neutral-700 dark:hover:shadow-neutral-900/40"
-          >
+          > 
+            {p.thumbnail ? (
+              <div className="mb-4 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-800">
+                <div className="relative aspect-[16/9] w-full">
+                  <Image
+                    src={p.thumbnail}
+                    alt={p.thumbnailAlt ?? p.title}
+                    fill
+                    className="object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    priority={idx < 2}
+                  />
+                </div>
+               </div>
+             ) : null}
+
             <div className="flex items-start justify-between gap-3">
               <h3 className="text-base font-semibold">{p.title}</h3>
               <ArrowUpRight className="opacity-60 transition group-hover:opacity-100" size={18} />
