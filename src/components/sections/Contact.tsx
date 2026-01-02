@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export function Contact() {
   return (
-    <Section id="contact" title="Contact" subtitle="Let’s connect.">
+    <Section id="contact" title="Contact" subtitle="Let’s build something together!">
       <div
         className="group rounded-2xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur
 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]

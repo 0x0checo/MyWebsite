@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export function About() {
   return (
-    <Section id="about" title="About" subtitle="Short and focused.">
+    <Section id="about" title="About" subtitle="It's me.">
       <div
         className="group rounded-2xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur
 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]

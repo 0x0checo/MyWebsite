@@ -9,7 +9,7 @@ export function Highlights() {
     <Section
       id="highlights"
       title="Highlights"
-      subtitle="A bit more context beyond projects."
+      subtitle="Beyond the code."
     >
       <div className="grid gap-4 md:grid-cols-3">
         {site.FeatureCard.map((item, idx) => (
