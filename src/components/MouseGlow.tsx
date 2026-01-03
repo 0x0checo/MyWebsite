@@ -20,8 +20,8 @@ export function MouseGlow() {
       raf.current = null;
 
       // smooth follow
-      current.current.x += (target.current.x - current.current.x) * 0.12;
-      current.current.y += (target.current.y - current.current.y) * 0.12;
+      current.current.x += (target.current.x - current.current.x) * 0.14;
+      current.current.y += (target.current.y - current.current.y) * 0.14;
 
       root.style.setProperty("--mx", `${current.current.x}px`);
       root.style.setProperty("--my", `${current.current.y}px`);
@@ -43,25 +43,30 @@ export function MouseGlow() {
   }, []);
 
   return (
-    <div className="pointer-events-none absolute inset-0 overflow-hidden">
-      {/* primary indigo glow */}
+    <div
+      aria-hidden
+      className="pointer-events-none fixed inset-0 z-[40]" // ✅ 放到内容上面
+    >
+      {/* main glow */}
+      <div
+        className="absolute inset-0 opacity-70"
+        style={{
+          background:
+            "radial-gradient(650px circle at var(--mx, 50%) var(--my, 30%), rgba(99,102,241,0.28), transparent 60%)",
+          mixBlendMode: "screen",
+        }}
+      />
+      {/* secondary glow */}
       <div
         className="absolute inset-0 opacity-60"
         style={{
           background:
-            "radial-gradient(600px circle at var(--mx, 50%) var(--my, 20%), rgba(99,102,241,0.22), transparent 55%)",
+            "radial-gradient(520px circle at var(--mx, 50%) var(--my, 30%), rgba(56,189,248,0.18), transparent 62%)",
           mixBlendMode: "screen",
         }}
       />
-      {/* secondary cyan glow */}
-      <div
-        className="absolute inset-0 opacity-50"
-        style={{
-          background:
-            "radial-gradient(500px circle at var(--mx, 50%) var(--my, 20%), rgba(56,189,248,0.14), transparent 60%)",
-          mixBlendMode: "screen",
-        }}
-      />
+      {/* subtle vignette to keep edges dark */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.55)_75%)]" />
     </div>
   );
 }
