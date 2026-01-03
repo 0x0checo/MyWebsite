@@ -19,14 +19,12 @@ export function MouseGlow() {
     const tick = () => {
       raf.current = null;
 
-      // smooth follow
       current.current.x += (target.current.x - current.current.x) * 0.14;
       current.current.y += (target.current.y - current.current.y) * 0.14;
 
       root.style.setProperty("--mx", `${current.current.x}px`);
       root.style.setProperty("--my", `${current.current.y}px`);
 
-      // keep animating while moving
       if (
         Math.abs(target.current.x - current.current.x) > 0.5 ||
         Math.abs(target.current.y - current.current.y) > 0.5
@@ -43,30 +41,28 @@ export function MouseGlow() {
   }, []);
 
   return (
-    <div
-      aria-hidden
-      className="pointer-events-none fixed inset-0 z-[40]" // ✅ 放到内容上面
-    >
+    <div aria-hidden className="pointer-events-none fixed inset-0 z-[40]">
       {/* main glow */}
       <div
-        className="absolute inset-0 opacity-70"
+        className="absolute inset-0 opacity-50"
         style={{
           background:
-            "radial-gradient(650px circle at var(--mx, 50%) var(--my, 30%), rgba(99,102,241,0.28), transparent 60%)",
+            "radial-gradient(650px circle at var(--mx, 50%) var(--my, 30%), rgba(99,102,241,0.22), transparent 60%)",
           mixBlendMode: "screen",
         }}
       />
       {/* secondary glow */}
       <div
-        className="absolute inset-0 opacity-60"
+        className="absolute inset-0 opacity-40"
         style={{
           background:
-            "radial-gradient(520px circle at var(--mx, 50%) var(--my, 30%), rgba(56,189,248,0.18), transparent 62%)",
+            "radial-gradient(520px circle at var(--mx, 50%) var(--my, 30%), rgba(56,189,248,0.14), transparent 62%)",
           mixBlendMode: "screen",
         }}
       />
-      {/* subtle vignette to keep edges dark */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.55)_75%)]" />
+
+      {/* ✅ very light vignette (optional) — 不再压黑文字 */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.20)_78%)]" />
     </div>
   );
 }
