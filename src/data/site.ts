@@ -16,6 +16,16 @@ export const site = {
   ],
   projects: [
     {
+    title: "RAG Retrieval Engine",
+    description:
+      "Built a retrieval pipeline with BM25/dense/hybrid search , reranking, and evaluation for robust, explainable RAG performance.",
+    tags: ["RAG", "FAISS", "Hybrid search"],
+    link: "http://188.120.171.216:8501",
+    thumbnail: "/projects/rag.png",
+    thumbnailAlt: "RAG retrieval engine web interface",
+    featured: true,
+    },
+    {
       title: "AI-Generated Text Detection (Internship Project)",
       description:
         "Built an AI-generated text detection pipeline for short-form content, covering data prep, modeling, evaluation, and deployment-ready inference.",
@@ -23,6 +33,7 @@ export const site = {
       link: "https://www.revdetect.com/",
       thumbnail: "/projects/aidetect.png",
       thumbnailAlt: "AI-generated content detection web interface",
+      featured: true,
     },
     {
       title: "Croatian News Information Retrieval",
@@ -40,6 +51,7 @@ export const site = {
       link: "https://github.com/0x0checo/nlp-xai",
       thumbnail: "/projects/xai.png",
       thumbnailAlt: "Deletion test plot comparing IG / Attention / LIME",
+      featured: true,
     },
     {
       title: "Low-Resource MT: Luganda ↔ English",
