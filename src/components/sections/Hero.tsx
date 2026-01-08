@@ -2,11 +2,12 @@ import { site } from "@/data/site";
 import { AnimatedText } from "@/components/AnimatedText";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import { MiniTerminal } from "../MiniTerminal";
+import { Container } from "@/components/Container";
 
 export function Hero() {
   return (
     <section id="home" className="py-20">
-      <div className="mx-auto w-full max-w-5xl px-6">
+      <Container>
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
           {/* Left */}
           <div className="max-w-3xl">
@@ -80,7 +81,7 @@ hover:-translate-y-0.5 hover:bg-white/[0.08] hover:border-white/20"
             <MiniTerminal />
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
