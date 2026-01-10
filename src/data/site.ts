@@ -20,7 +20,7 @@ export const site = {
     description:
       "Built a retrieval pipeline with BM25/dense/hybrid search , reranking, and evaluation for robust, explainable RAG performance.",
     tags: ["RAG", "FAISS", "Hybrid search"],
-    link: "http://188.120.171.216:8501",
+    link: "https://rag-retrieval-engine.streamlit.app/",
     thumbnail: "/projects/rag.png",
     thumbnailAlt: "RAG retrieval engine web interface",
     featured: true,
