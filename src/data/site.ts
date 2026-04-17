@@ -26,6 +26,15 @@ export const site = {
     featured: true,
     },
     {
+      title: "JobFit – AI Resume & Job Matching Assistant",
+      description:
+        "Built an AI-powered web application that analyzes resumes against job descriptions and provides personalized feedback, including skill gaps, keyword optimization, and match scoring. Designed to help users improve ATS compatibility and job alignment.",
+      tags: ["RAG", "LLM", "NLP", "Streamlit"],
+      link: "https://getoffer-bot.streamlit.app/",
+      thumbnail: "/projects/jobfit.png",
+      thumbnailAlt: "JobFit resume-job matching interface",
+    },
+    {
       title: "AI-Generated Text Detection (Internship Project)",
       description:
         "Built an AI-generated text detection pipeline for short-form content, covering data prep, modeling, evaluation, and deployment-ready inference.",
@@ -52,15 +61,6 @@ export const site = {
       thumbnail: "/projects/xai.png",
       thumbnailAlt: "Deletion test plot comparing IG / Attention / LIME",
       featured: true,
-    },
-    {
-      title: "Low-Resource MT: Luganda ↔ English",
-      description:
-        "Training + back-translation experiments with mBART/NLLB; BLEU + qualitative error analysis.",
-      tags: ["MT", "Low-resource", "NLLB"],
-      link: "https://github.com/0x0checo/Luganda-to-English-machine-translation",
-      thumbnail: "/projects/mt.png",
-      thumbnailAlt: "BLEU scores comparison before and after fine-tuning",
     },
   ],
   about: `

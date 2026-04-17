@@ -86,7 +86,7 @@ export function Projects() {
 
   const firstRowTitles = new Set([
     "RAG Retrieval Engine",
-    "AI-Generated Text Detection (Internship Project)",
+    "JobFit – AI Resume & Job Matching Assistant",
   ]);
 
   const firstRow = projects.filter((p) => firstRowTitles.has(p.title));
